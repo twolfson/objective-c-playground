@@ -56,6 +56,7 @@ These are questions I've asked myself while learning
 - How do I disable autoclosing strings in Markdown editing in Xcode?
 - **We should visit the Shortcut Foo page for Xcode...**
 - Can we add multi-cursor support like Sublime Text to Xcode?
+    - Looks possible via some voodoo - <https://stackoverflow.com/a/34468037>
 - What's the "Server & Bots" tab in Preferences for?
 
 ## Tips and Tricks
@@ -67,6 +68,7 @@ These are questions I've asked myself while learning
     - Command+. - Stop
     - Shift+command+0 - Developer Documentation
 - Here are my Xcode customization preferences: https://gist.github.com/twolfson/b7f73324219788ad4bb0d9cbccc6b7e6
+- https://cocoacasts.com/seven-xcode-tricks-every-developer-should-know/
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
