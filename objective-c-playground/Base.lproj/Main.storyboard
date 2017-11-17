@@ -336,7 +336,9 @@
                             <outlet property="delegate" destination="miw-5b-zQn" id="aY3-yS-wMs"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="To-Do List" id="ujQ-OA-WcS"/>
+                    <navigationItem key="navigationItem" title="To-Do List" id="ujQ-OA-WcS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yAN-SK-3Qc"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="voB-ob-GoP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
