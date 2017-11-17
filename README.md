@@ -54,9 +54,18 @@ These are questions I've asked myself while learning
 - Are there tools like LiveReload to see changes immediately in-app?
     - Maybe something like a build server like Rails' `spring` or JS' `watchify` to reduce file system hits and general load times?
 - How do I disable autoclosing strings in Markdown editing in Xcode?
+- **We should visit the Shortcut Foo page for Xcode...**
+- Can we add multi-cursor support like Sublime Text to Xcode?
+- What's the "Server & Bots" tab in Preferences for?
 
 ## Tips and Tricks
-- Browse "Preferences -> Key Bindings" to find slick shortcuts like (command+option+o -- equivalent of Sublime Text's jump file)
+- Browse "Preferences -> Key Bindings" to find slick shortcuts like:
+    - Command+option+o - equivalent of Sublime Text's jump file
+    - Command+r - Run
+    - Command+t - Test
+    - Ctrl+command+r - Run without building
+    - Command+. - Stop
+    - Shift+command+0 - Developer Documentation
 - Here are my Xcode customization preferences: https://gist.github.com/twolfson/b7f73324219788ad4bb0d9cbccc6b7e6
 
 ## Contributing
