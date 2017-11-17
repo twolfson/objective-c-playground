@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F76D64E1FBEC1C100285873 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FD3EA301FBEBDF4006C4A10 /* objective-c-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD3EA331FBEBDF4006C4A10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FD3EA341FBEBDF4006C4A10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		5FD3EA271FBEBDF4006C4A10 = {
 			isa = PBXGroup;
 			children = (
+				5F76D64E1FBEC1C100285873 /* README.md */,
 				5FD3EA321FBEBDF4006C4A10 /* objective-c-playground */,
 				5FD3EA4B1FBEBDF4006C4A10 /* objective-c-playgroundTests */,
 				5FD3EA561FBEBDF4006C4A10 /* objective-c-playgroundUITests */,
