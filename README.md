@@ -42,9 +42,6 @@ We took the following steps to set up this repo:
     - [x] Include UI Tests
     - Saved to this folder
 
-## Examples
-_(Coming soon)_
-
 ## Questions/Answers
 These are questions I've asked myself while learning
 
