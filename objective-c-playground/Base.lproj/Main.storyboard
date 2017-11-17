@@ -373,11 +373,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="idT-Vw-tKz">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="nfD-vf-u5w"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="B7C-zP-yin"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="nfD-vf-u5w">
+                            <connections>
+                                <segue destination="bax-RR-wAy" kind="unwind" unwindAction="unwindToList:" id="Cmy-mG-Uod"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="B7C-zP-yin">
+                            <connections>
+                                <segue destination="bax-RR-wAy" kind="unwind" unwindAction="unwindToList:" id="f2m-km-EdD"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="bax-RR-wAy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-271" y="1013"/>
         </scene>
