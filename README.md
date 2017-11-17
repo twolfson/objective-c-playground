@@ -51,6 +51,8 @@ These are questions I've asked myself while learning
 - What does package management look like? I think there's CocoaPods but can we verify that's the canonical tool?
     - Also, relevant from `.gitignore` template -- https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 - Explore Carthage, fastlane, and code injection mentioned in https://github.com/github/gitignore/blob/fad779220742a6d54ccfc0c1a0e5b3d820253de6/Objective-C.gitignore#L39-L63
+- Are there tools like LiveReload to see changes immediately in-app?
+    - Maybe something like a build server like Rails' `spring` or JS' `watchify` to reduce file system hits and general load times?
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
