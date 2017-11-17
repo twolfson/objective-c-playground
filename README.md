@@ -7,7 +7,23 @@ We've been using the following guides:
 - [Start Developing iOS Apps Today by Apple (Objective-C version)](https://github.com/mrshyi/RoadMapiOS/blob/d78ec91c80903991c70124d37db54adf42a0c0c9/RoadMapiOS.pdf)
 
 ## Getting Started
-_(Coming soon)_
+To get this repo running locally, perform the following:
+
+```bash
+# Clone this repo
+git clone git@github.com:twolfson/objective-c-playground.git
+cd objective-c-playground
+
+# Install our dependencies
+# Nothing here yet...
+
+# Open our project in Xcode
+open objective-c-playground.xcodeproj
+
+# Press the "Play" button
+```
+
+Upon pressing the "Play" button, there should be no compilation errors and the application will launch in a simulator
 
 ## Documentation
 ### Initial setup
