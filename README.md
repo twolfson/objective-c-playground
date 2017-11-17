@@ -53,6 +53,11 @@ These are questions I've asked myself while learning
 - Explore Carthage, fastlane, and code injection mentioned in https://github.com/github/gitignore/blob/fad779220742a6d54ccfc0c1a0e5b3d820253de6/Objective-C.gitignore#L39-L63
 - Are there tools like LiveReload to see changes immediately in-app?
     - Maybe something like a build server like Rails' `spring` or JS' `watchify` to reduce file system hits and general load times?
+- How do I disable autoclosing strings in Markdown editing in Xcode?
+
+## Tips and Tricks
+- Browse "Preferences -> Key Bindings" to find slick shortcuts like (command+option+o -- equivalent of Sublime Text's jump file)
+- Here are my Xcode customization preferences: https://gist.github.com/twolfson/b7f73324219788ad4bb0d9cbccc6b7e6
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
