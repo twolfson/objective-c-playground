@@ -58,6 +58,7 @@ These are questions I've asked myself while learning
 - Can we add multi-cursor support like Sublime Text to Xcode?
     - Looks possible via some voodoo - <https://stackoverflow.com/a/34468037>
 - What's the "Server & Bots" tab in Preferences for?
+- Explore using SVGs as icons
 
 ## Tips and Tricks
 - Browse "Preferences -> Key Bindings" to find slick shortcuts like:

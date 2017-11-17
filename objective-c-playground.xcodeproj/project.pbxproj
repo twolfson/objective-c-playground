@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F76D6511FBEDDC000285873 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F76D6501FBEDDC000285873 /* AddToDoItemViewController.m */; };
 		5FD3EA351FBEBDF4006C4A10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3EA341FBEBDF4006C4A10 /* AppDelegate.m */; };
-		5FD3EA381FBEBDF4006C4A10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3EA371FBEBDF4006C4A10 /* ViewController.m */; };
 		5FD3EA3B1FBEBDF4006C4A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD3EA391FBEBDF4006C4A10 /* Main.storyboard */; };
 		5FD3EA3D1FBEBDF4006C4A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD3EA3C1FBEBDF4006C4A10 /* Assets.xcassets */; };
 		5FD3EA401FBEBDF4006C4A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD3EA3E1FBEBDF4006C4A10 /* LaunchScreen.storyboard */; };
@@ -36,11 +36,11 @@
 
 /* Begin PBXFileReference section */
 		5F76D64E1FBEC1C100285873 /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F76D64F1FBEDDC000285873 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		5F76D6501FBEDDC000285873 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 		5FD3EA301FBEBDF4006C4A10 /* objective-c-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-c-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD3EA331FBEBDF4006C4A10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FD3EA341FBEBDF4006C4A10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FD3EA361FBEBDF4006C4A10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FD3EA371FBEBDF4006C4A10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FD3EA3A1FBEBDF4006C4A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FD3EA3C1FBEBDF4006C4A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FD3EA3F1FBEBDF4006C4A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 			children = (
 				5FD3EA331FBEBDF4006C4A10 /* AppDelegate.h */,
 				5FD3EA341FBEBDF4006C4A10 /* AppDelegate.m */,
-				5FD3EA361FBEBDF4006C4A10 /* ViewController.h */,
-				5FD3EA371FBEBDF4006C4A10 /* ViewController.m */,
+				5F76D64F1FBEDDC000285873 /* AddToDoItemViewController.h */,
+				5F76D6501FBEDDC000285873 /* AddToDoItemViewController.m */,
 				5FD3EA391FBEBDF4006C4A10 /* Main.storyboard */,
 				5FD3EA3C1FBEBDF4006C4A10 /* Assets.xcassets */,
 				5FD3EA3E1FBEBDF4006C4A10 /* LaunchScreen.storyboard */,
@@ -267,9 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD3EA381FBEBDF4006C4A10 /* ViewController.m in Sources */,
 				5FD3EA431FBEBDF4006C4A10 /* main.m in Sources */,
 				5FD3EA351FBEBDF4006C4A10 /* AppDelegate.m in Sources */,
+				5F76D6511FBEDDC000285873 /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
